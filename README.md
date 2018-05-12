@@ -1,4 +1,4 @@
-# mdam (Monotoring Dynamically Allocated Memory)
+# mdam (Monitoring Dynamically Allocated Memory)
 
 ## About
 
