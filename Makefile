@@ -1,7 +1,7 @@
 TARGET=mdam.so
-
+CFLAGS=-shared -fPIC -O2 -Wall -Wextra -ldl
 $(TARGET): *.c
-	gcc -shared -fPIC *.c -O2 -o $(TARGET) -ldl
+	gcc *.c $(CFLAGS) -o $(TARGET)
 
 clean:
 	rm $(TARGET)
